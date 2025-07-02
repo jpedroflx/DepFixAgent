@@ -22,14 +22,14 @@ Os experimentos avaliam:
 - Taxa de uso de APIs depreciadas por diferentes LLMs;
 - Taxa de correções bem-sucedidas;
 - Similaridade semântica entre o código original e o corrigido;
-- ⚠Introdução (ou não) de novos erros.
+- Introdução (ou não) de novos erros.
 
 Comparações serão feitas entre:
 - **Método A**: LLM + código bruto gerado;
 - **Método B**: LLM + reparo com REPLACEAPI/INSERTPROMPT;
 - **Método C**: LLM + Agente Autônomo com consulta externa.
 
-## 🛠Requisitos
+## Requisitos
 
 - Python 3.10+
 - Transformers (HuggingFace)
